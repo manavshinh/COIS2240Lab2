@@ -9,12 +9,12 @@ public class Program {
             manager.addContact(new Contact("Bob", "bob@example.com", "098-765-4321"));
     
             // List contacts
-           // manager.listContacts();
+            manager.listContacts();
     
             // Remove a contact
-            //manager.removeContact("Alaadin");
-    
+            manager.removeContact("Alaadin");
+            manager.removeContact("Alaadin");
             // List contacts again to see the change
-            //manager.listContacts();
+            manager.listContacts();
         }
 }

@@ -26,7 +26,7 @@ class ContactManager {
             return;
         }
      }   
-     System.out.println("Contact"+ name + "not found.");
+     System.out.println("Contact "+ name + " not found.");
     }
 
     // Method to list all Contacts
