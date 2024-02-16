@@ -22,7 +22,7 @@ class ContactManager {
      for(Contact contact: contacts){
         if (contact.getName().equals(name)) {
             contacts.remove(contact);
-            System.out.println("Contact"+ name + "removed successfully.");
+            System.out.println("Contact" + name +  "removed successfully.");
             return;
         }
      }   
